@@ -1,14 +1,14 @@
 body {
-    background-color: dimgrey;
+    background-color: #79698A;
     max-width: 750px;
     margin: auto;
     align-content: center;
-    color: #333;
+    color: #483A58;
     font-family: "Arial", sans-serif;
 }
 
 a {
-    color: black;
+    color: #79698A;
 }
 
 .header {
@@ -16,7 +16,7 @@ a {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    background-color: lightgrey;
+    background-color: #00C9AA;
     margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -40,7 +40,7 @@ a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #483A58;
 }
 
 .nav_bar li {
@@ -49,27 +49,20 @@ a {
 
 .nav_bar li a {
     display: block;
-    color: white;
     text-align: center;
+    color: #FCEAFF;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.nav_bar li a:hover {
-    background-color: black;
-}
-
-.nav_bar .current {
-    background-color: grey;
-}
-
-.nav_bar .current a:hover {
-    background-color: grey;
+.nav_bar .current a {
+    background-color: #FCEAFF;
+    color: #483A58;
 }
 
 .contents {
-    background-color: lightgrey;
-    color: #333;
+    background-color: #FCEAFF;
+    color: #483A58;
     min-height: 300px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -78,8 +71,8 @@ a {
 }
 
 .footer {
-    background-color: #333;
-    color: white;
+    background-color: #483A58;
+    color: #FCEAFF;
     font-size: 11px;
     padding-top: 10px;
     padding-bottom: 10px;
