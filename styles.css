@@ -23,12 +23,16 @@ a {
 }
 
 .title {
-    font-size: 36px;
+    font-size: 80px;
+    margin: 20px;
 }
 
 .headshot {
-    padding-left: 20px;
-    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 150px;
 }
 
 .nav_bar {
