@@ -24,10 +24,26 @@ a {
     padding-bottom: 0px;
 }
 
+.header_text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
 .title {
     font-size: 90px;
     font-weight: 100;
-    margin: 20px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 40px;
+    font-weight: 100;
+    margin: 0px;
 }
 
 .headshot {
