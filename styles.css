@@ -5,11 +5,15 @@ body {
     align-content: center;
     color: #483A58;
     font-family: "Arial", sans-serif;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 a {
     color: #79698A;
+}
+
+table {
+    width: 100%
 }
 
 .header {
@@ -101,6 +105,19 @@ a {
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.contact_table {
+    padding: 30px;
+}
+
+.contact_icon_cell {
+    padding: 10px 20px;
+}
+
+.contact_icon {
+    width: 50px;
+    height: 50px;
 }
 
 .footer {
