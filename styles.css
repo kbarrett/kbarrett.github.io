@@ -20,7 +20,7 @@ a {
     background-color: #00C9AA;
     margin-top: 30px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .title {
@@ -42,12 +42,14 @@ a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #483A58;
+    background-color: #00C9AA;
     font-weight: bold;
     font-size: 36px;
 }
 
 .nav_bar li {
+    background-color: #483A58;
+    border-radius: 15px 15px 0px 0px;
     float: left;
 }
 
@@ -62,6 +64,7 @@ a {
 .nav_bar .current a {
     background-color: #FCEAFF;
     color: #483A58;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .contents {
