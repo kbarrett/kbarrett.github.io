@@ -1,15 +1,22 @@
+:root {
+    --dark-colour: #483A58;
+    --lighter-colour: #79698A;
+    --contrasting-colour: #00C9AA;
+    --light-colour: #FCEAFF;
+}
+
 body {
-    background-color: #79698A;
+    background-color: var(--lighter-colour);
     max-width: 750px;
     margin: auto;
     align-content: center;
-    color: #483A58;
+    color: var(--dark-colour);
     font-family: "Arial", sans-serif;
     font-size: 26px;
 }
 
 a {
-    color: #79698A;
+    color: var(--lighter-colour);
 }
 
 table {
@@ -22,7 +29,7 @@ table {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #00C9AA;
+    background-color: var(--contrasting-colour);
     margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 0px;
@@ -68,17 +75,17 @@ table {
     padding-left: 10px;
     padding-right: 10px;
     overflow: hidden;
-    background-color: #483A58;
+    background-color: var(--dark-colour);
     font-size: 40px;
     border-width: 10px;
-    border-color: #483A58;
+    border-color: var(--dark-colour);
     border-top-style: solid;
     border-bottom-style: solid;
 }
 
 .nav_bar li {
     float: left;
-    border-left-color: #FCEAFF;
+    border-left-color: var(--light-colour);
     border-left-style: solid;
     border-left-width: 2px;
 }
@@ -88,18 +95,18 @@ table {
     text-align: center;
     padding: 0px 30px;
     text-decoration: none;
-    color: #FCEAFF;
+    color: var(--light-colour);
 }
 
 .right_nav_button {
-    border-right-color: #FCEAFF;
+    border-right-color: var(--light-colour);
     border-right-style: solid;
     border-right-width: 2px;
 }
 
 .contents {
-    background-color: #FCEAFF;
-    color: #483A58;
+    background-color: var(--light-colour);
+    color: var(--dark-colour);
     min-height: 300px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -121,7 +128,7 @@ table {
 }
 
 .footer {
-    background-color: #00C9AA;
+    background-color: var(--contrasting-colour);
     font-size: 20px;
     font-weight: bold;
     padding-top: 10px;
