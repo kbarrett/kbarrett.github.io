@@ -141,6 +141,7 @@ table {
     align-items: center;
     list-style-type: none;
     margin-top: 10px;
+    font-size: 30px;
 }
 
 .profile_list li {
