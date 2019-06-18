@@ -1,12 +1,12 @@
 :root {
-    --dark-colour: #483A58;
-    --lighter-colour: #79698A;
-    --contrasting-colour: #00C9AA;
-    --light-colour: #FCEAFF;
+    --dark-colour: #000000;
+    --lighter-colour: #D4D3D3;
+    --light-colour: #FDFFFC;
+    --contrasting-colour: #A51414;
 }
 
 body {
-    background-color: var(--lighter-colour);
+    background-color: var(--contrasting-colour);
     max-width: 750px;
     margin: auto;
     align-content: center;
@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    color: var(--lighter-colour);
+    color: var(--contrasting-colour);
 }
 
 table {
@@ -29,7 +29,7 @@ table {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: var(--contrasting-colour);
+    background-color: var(--lighter-colour);
     margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 0px;
@@ -105,7 +105,7 @@ table {
 }
 
 .contents {
-    background-color: var(--light-colour);
+    background-color: var(--lighter-colour);
     color: var(--dark-colour);
     font-size: 26px;
     min-height: 300px;
@@ -129,7 +129,8 @@ table {
 }
 
 .footer {
-    background-color: var(--contrasting-colour);
+    background-color: var(--dark-colour);
+    color: var(--light-colour);
     font-size: 20px;
     font-weight: bold;
     padding-top: 10px;
