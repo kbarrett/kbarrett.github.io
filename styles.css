@@ -107,6 +107,7 @@ table {
 .contents {
     background-color: var(--light-colour);
     color: var(--dark-colour);
+    font-size: 26px;
     min-height: 300px;
     padding-top: 5px;
     padding-bottom: 5px;
