@@ -118,6 +118,18 @@ table {
     padding-right: 20px;
 }
 
+.portfolio_table td {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.portfolio_source_image {
+    margin-top: 2px;
+    height: 26px;
+    width: 26px;
+    padding: 1px;
+}
+
 .contact_table {
     padding: 0px 30px;
 }
