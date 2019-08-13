@@ -15,7 +15,8 @@ body {
     margin: auto;
     align-content: center;
     font-family: 'Lexend Deca', "Arial", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 a {
@@ -52,7 +53,7 @@ table {
     font-size: 85px;
     font-weight: 100;
     margin: 0px;
-    margin-bottom: 10px;
+    line-height: 1;
 }
 
 .subtitle {
@@ -62,12 +63,10 @@ table {
 }
 
 .headshot {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
     height: 150px;
     width: 150px;
+    float: right;
+    padding: 18px 0 0 24px;
 }
 
 .nav_bar {
@@ -80,7 +79,7 @@ table {
     padding-right: 10px;
     overflow: hidden;
     background-color: var(--navbar-colour);
-    font-size: 40px;
+    font-size: 24px;
     border-width: 10px;
     border-color: var(--navbar-colour);
     border-top-style: solid;
@@ -97,7 +96,7 @@ table {
 .nav_bar li a {
     display: block;
     text-align: center;
-    padding: 0px 30px;
+    padding: 0px 40px;
     text-decoration: none;
     color: var(--light-font-colour);
 }
@@ -111,11 +110,8 @@ table {
 .contents {
     background-color: var(--content-colour);
     color: var(--dark-colour);
-    min-height: 300px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    text-align: justify;
+    padding: 12px 40px;
 }
 
 .portfolio_table td {
@@ -141,7 +137,7 @@ table {
     align-items: center;
     list-style-type: none;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 16px;
 }
 
 .profile_list li {
@@ -151,7 +147,7 @@ table {
 .footer {
     background-color: var(--footer-colour);
     color: var(--light-font-colour);
-    font-size: 20px;
+    font-size: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -163,5 +159,6 @@ table {
 }
 
 .footer a {
+    text-decoration: none;
     color: var(--light-font-colour);
 }
