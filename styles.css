@@ -141,9 +141,15 @@ h2 {
 
 .portfolio_source_image {
     margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 15px;
     height: 26px;
     width: 26px;
     padding: 1px;
+}
+
+.important_portfolio_entry {
+    font-size: 20pt;
 }
 
 .email {
