@@ -4,6 +4,8 @@
     --footer-colour: #A51414;
     --navbar-colour: #000000;
     --content-colour: #D4D3D3;
+    --emphasis-content-colour: #AFAFAF;
+    --emphasis-colour: #A51414;
     --dark-font-colour: #000000;
     --light-font-colour: #FDFFFC;
     --link-font-colour: #A51414;
@@ -43,7 +45,8 @@ a {
 }
 
 table {
-    width: 100%
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .header {
@@ -134,6 +137,7 @@ h2 {
 }
 
 .portfolio_table td {
+    padding-left: 15px;
     text-align: left;
     height: 50px;
     vertical-align: middle;
@@ -153,7 +157,10 @@ h2 {
 }
 
 .important_portfolio_entry {
-    font-size: 20pt;
+    background-color: var(--emphasis-content-colour);
+    border-color: var(--emphasis-colour);
+    border-width: 2px;
+    border-style: solid;
 }
 
 .email {
