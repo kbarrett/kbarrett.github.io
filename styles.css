@@ -131,7 +131,7 @@ h2 {
 
 
 @media only screen and (max-width: 650px) {
-    .portfolio_source_image {
+    .portfolio_publication {
         display: none;
     }
 }
@@ -148,7 +148,7 @@ h2 {
     width: 25%;
 }
 
-.portfolio_source_image {
+.portfolio_publication {
     margin-top: 2px;
     margin-left: 10px;
     margin-right: 15px;
