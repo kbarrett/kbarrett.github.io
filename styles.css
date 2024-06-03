@@ -134,6 +134,9 @@ h2 {
     .portfolio_publication {
         display: none;
     }
+    .headshot {
+        float: none;
+    }
 }
 
 .portfolio_table td {
